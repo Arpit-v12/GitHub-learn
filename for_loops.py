@@ -9,7 +9,7 @@ n=100
 start=time.time()
 sum=0
 sum_1=0
-for i in range(1):
+for i in range(1,n):
 	sum+=i
 print(sum)
 end=time.time()
